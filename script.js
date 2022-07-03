@@ -10,3 +10,7 @@ const clickButton = document.getElementById('button');
 
 //Number
 const number = [Math.floor(Math.random() * 100)]
+
+//Event Listeners
+ 
+//Button Event
