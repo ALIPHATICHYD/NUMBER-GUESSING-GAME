@@ -17,3 +17,8 @@ const number = [Math.floor(Math.random() * 100)]
 clickButton.addEventListener('click', function(){
     //Input ID
     const inputText = document.getElementById('input').value; 
+  if (inputText == number){
+        theRule.innerHTML = 'You guessed right, your number was $(number)'
+    } else if  (inputText < number){
+        theRule.innerHTML = 'You guessed too low!'
+    };
