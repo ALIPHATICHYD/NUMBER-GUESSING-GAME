@@ -20,3 +20,12 @@ body{
     left: 250px;
     
 }
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 50px;
+    color: ;
+}
