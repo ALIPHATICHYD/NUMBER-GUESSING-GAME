@@ -5,3 +5,8 @@ const theRule = document.getElementById('rule');
 
 //Button ID
 const clickButton = document.getElementById('button');
+
+//Creating Functions & Assigning
+
+//Number
+const number = [Math.floor(Math.random() * 100)]
