@@ -22,3 +22,8 @@ clickButton.addEventListener('click', function(){
     } else if  (inputText < number){
         theRule.innerHTML = 'You guessed too low!'
     };
+
+    if (inputText > number){
+        theRule.innerHTML = 'You guessed too high!'
+    }
+});
