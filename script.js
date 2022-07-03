@@ -14,3 +14,6 @@ const number = [Math.floor(Math.random() * 100)]
 //Event Listeners
  
 //Button Event
+clickButton.addEventListener('click', function(){
+    //Input ID
+    const inputText = document.getElementById('input').value; 
