@@ -29,3 +29,13 @@ p{
     top: 50px;
     color: ;
 }
+
+#rule{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 80px;
+   
+}
+
